@@ -6,7 +6,7 @@ const opn = require('open')
 const gfi = require('libgfi')
 
 const packageJSON = require('../package.json')
-const log = require('../lib/log')
+const log = require('../lib/log').default
 const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
 

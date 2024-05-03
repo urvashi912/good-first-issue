@@ -1,4 +1,4 @@
-const log = require('../lib/log')
+const log = require('../lib/log').default
 const stripAnsi = require('strip-ansi');
 
 test('should return formatted log', async () => {
